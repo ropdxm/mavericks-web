@@ -201,9 +201,9 @@ const Shop = () => {
       </Title>
       <Left>
         <p>
-        "Mavericks Robotics Team" is a dynamic and forward-thinking group, comprised of passionate individuals dedicated to pushing the boundaries of innovation in the field of robotics. Renowned for their unwavering commitment to excellence, the Mavericks embody a spirit of hard work, creativity, and talent that sets them apart in the world of robotics.
+        "Mavericks Robotics Team" is a dynamic and forward-thinking group, comprised of passionate individuals. Renowned for their unwavering commitment to excellence, the Mavericks embody a spirit of hard work, creativity, and talent that sets them apart in the world of robotics.
           <br /> <br />
-          the Mavericks Robotics Team is an innovative, hard-working, and talented group of individuals who consistently push the boundaries of what is possible in the field of robotics. With a commitment to excellence, a culture of continuous improvement, and a diverse range of skills, the Mavericks are a force to be reckoned with in the world of robotics innovation. Here, have a look at our brilliant team!
+          With a commitment to excellence, a culture of continuous improvement, and a diverse range of skills, the Mavericks are a force to be reckoned with in the world of robotics innovation. Here, have a look at our brilliant team!
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
