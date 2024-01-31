@@ -182,7 +182,7 @@ const CoverVideo = () => {
           data-scroll-delay="0.04"
           data-scroll-speed="2"
         >
-          inspire. create. belive
+          inspire. engineer. create
         </motion.h2>
       </Title>
 

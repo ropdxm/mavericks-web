@@ -4,10 +4,10 @@ import ScrollTrigger from 'gsap/ScrollTrigger';
 import React, {  useLayoutEffect, useRef } from 'react';
 import styled from 'styled-components';
 
-import img1 from '../assets/Images/11.webp';
-import img2 from '../assets/Images/12.webp';
-import img3 from '../assets/Images/13.webp';
-import img4 from '../assets/Images/14.webp';
+import img1 from '../assets/Images/clutch.webp';
+import img2 from '../assets/Images/organisers.webp';
+import img3 from '../assets/Images/robopark.webp';
+import img4 from '../assets/Images/robot.webp';
 
 const Section = styled.section`
   min-height: 100vh;
@@ -222,24 +222,25 @@ let t1= gsap.timeline();
       </Title>
 
       <Container ref={ScrollingRef}>
-        <Photos img={img1} name="Denim" />
-        <Photos img={img2} name="Cool Dresses" />
-        <Photos img={img3} name="Jackets" />
-        <Photos img={img4} name="T-shirts" />
+        <Photos img={img1} name="'Clutch' team" />
+        <Photos img={img2} name="Organisers" />
+        <Photos img={img3} name="'Robopark' team" />
+        <Photos img={img4} name="Robot" />
       </Container>
 
       <Text data-scroll data-scroll-speed="-4">
-        There is new collection available for cool clothes in all sizes. This collection
-        is a great way to find a new look for you. It offers a variety of cool apparel
-        styles to fit your taste, while you can also find some cool clothes that you can
-        wear everyday.
+        On January 26, our team held the Friendly FLL Challenge Championship. It was held in the format of an official tournament.
+        <br />
+        The winners of the tournament were 🏅:
+        <br />
+        Champions Awards - "Shymside"
+        Innovation Project winners - “Clutch”
+        Core Values winners - “Orion”
+        Robot Design winners - “Black Clever”
+
         <br />
         <br />
-        The first line of clothing you will see on this collection is for men. The
-        collection also includes three new styles for women.
-        <br />
-        <br />
-        Give it a try and experience a new look.
+        It is worth noting that all participants of our Friendly FLL Challenge Championship won a quota for Central Asia at the official tournament! 🤩
       </Text>
     </Section>
   );

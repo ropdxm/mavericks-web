@@ -4,10 +4,10 @@ import ScrollTrigger from "gsap/ScrollTrigger";
 import React, { useLayoutEffect, useRef } from "react";
 import styled from "styled-components";
 
-import img1 from "../assets/Images/1.webp";
-import img2 from "../assets/Images/2.webp";
+import img1 from "../assets/Images/arnur.jpeg";
+import img2 from "../assets/Images/abay.jpg";
 import img3 from "../assets/Images/3.webp";
-import img4 from "../assets/Images/4.webp";
+import img4 from "../assets/Images/nurbek.jpg";
 import img5 from "../assets/Images/5.webp";
 import img6 from "../assets/Images/6.webp";
 import img7 from "../assets/Images/7.webp";
@@ -207,18 +207,20 @@ const Shop = () => {
         </p>
       </Left>
       <Right data-scroll ref={Horizontalref}>
-        <Product img={img3} title="Arnur" />
-        <Product img={img4} title="Abay" />
-        <Product img={img1} title="Altair" />
-        <Product img={img2} title="Nurbek" />
+        <Product img={img1} title="Arnur" />
+        <Product img={img2} title="Abay" />
+        <Product img={img3} title="Altair" />
+        <Product img={img4} title="Nurbek" />
         <Product img={img5} title="Dulat" />
         <Product img={img5} title="Ali" />
         <Product img={img6} title="Sanzhar" />
         <Product img={img7} title="Dias" />
         <Product img={img8} title="Uldana" />
+        <Product img={img8} title="Kamilla" />
         <Product img={img9} title="Rasul" />
         <Product img={img10} title="Magzhan" />
         <Product img={img10} title="Zharkynbek" />
+        <Product img={img10} title="Aisultan" />
       </Right>
     </Section>
   );
