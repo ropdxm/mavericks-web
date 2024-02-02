@@ -154,7 +154,7 @@ const Footer = () => {
             about
           </li>
           <li aria-hidden="true" onClick={() => handleScroll("#shop")}>
-            shop
+            team
           </li>
           <li aria-hidden="true" onClick={() => handleScroll(".new-arrival")}>
             challenge
@@ -176,7 +176,7 @@ const Footer = () => {
           >
             Made with &hearts; by{" "}
             <a
-              href="#"
+              href="https://www.instagram.com/mavericks_ftc/"
               target={"_blank"}
               rel="dofollow noreferrer"
             >

@@ -153,11 +153,6 @@ const About = () => {
         creative products to a wide range of people. We have a variety of
         styles, but for most people, all of the options are in the box. We
         specialize in making things that make you happy.
-        <br />
-        <br />
-        We strive to build on our vision. As a fashion label, we do our best to
-        create amazing experiences for all people. We are always looking to make
-        something that is easy for everyone.
       </Left>
 
       <Right>

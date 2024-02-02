@@ -231,16 +231,19 @@ let t1= gsap.timeline();
       <Text data-scroll data-scroll-speed="-4">
         On January 26, our team held the Friendly FLL Challenge Championship. It was held in the format of an official tournament.
         <br />
-        The winners of the tournament were 🏅:
+        The winners of the tournament were:
         <br />
         Champions Awards - "Shymside"
+        <br />
         Innovation Project winners - “Clutch”
+        <br />
         Core Values winners - “Orion”
+        <br />
         Robot Design winners - “Black Clever”
 
         <br />
         <br />
-        It is worth noting that all participants of our Friendly FLL Challenge Championship won a quota for Central Asia at the official tournament! 🤩
+        It is worth noting that all participants of our Friendly FLL Challenge Championship won a quota for Central Asia at the official tournament!
       </Text>
     </Section>
   );

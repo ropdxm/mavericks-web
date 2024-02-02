@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import styled from 'styled-components';
+import star from '../assets/Images/logo.jpg';
 
 const Container = styled(motion.div)`
   position: absolute;
@@ -42,6 +43,10 @@ overflow: hidden;
         stroke: #fff;
       }
     }
+  }
+  img {
+    height: 10rem;
+    aspect-ratio: 1;
   }
 `;
 
@@ -95,8 +100,8 @@ const Loader = () => {
       exit={{ y: '100%', opacity: 0 }}
       transition={{ duration: 2 }}
     >
-      {/* <img src={star} alt="Wibe Fashion" /> */}
-      <svg
+      <img src={star} alt="Wibe Fashion" />
+      {/* <svg
         xmlns="http://www.w3.org/2000/svg"
         enableBackground="new 0 0 24 24"
         height="48px"
@@ -112,7 +117,7 @@ const Loader = () => {
             d="M12,17.27L18.18,21l-1.64-7.03L22,9.24l-7.19-0.61L12,2L9.19,8.63L2,9.24l5.46,4.73L5.82,21L12,17.27z"
           />
         </g>
-      </svg>
+      </svg> */}
       <Text variants={textVariants} initial="hidden" animate="visible">
         Mavericks
       </Text>

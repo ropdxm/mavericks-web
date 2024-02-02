@@ -6,14 +6,18 @@ import styled from "styled-components";
 
 import img1 from "../assets/Images/arnur.jpeg";
 import img2 from "../assets/Images/abay.jpg";
-import img3 from "../assets/Images/3.webp";
+import img3 from "../assets/Images/altair.jpg";
 import img4 from "../assets/Images/nurbek.jpg";
-import img5 from "../assets/Images/5.webp";
-import img6 from "../assets/Images/6.webp";
-import img7 from "../assets/Images/7.webp";
-import img8 from "../assets/Images/8.webp";
-import img9 from "../assets/Images/9.webp";
-import img10 from "../assets/Images/10.webp";
+import img5 from "../assets/Images/dulat.jpg";
+import img6 from "../assets/Images/ali.jpg";
+import img7 from "../assets/Images/sanzhar.jpg";
+import img8 from "../assets/Images/dias.jpg";
+import img9 from "../assets/Images/uldana.JPG";
+import img10 from "../assets/Images/kamila.jpg"; //kamilla
+import img11 from "../assets/Images/rasul.JPG";
+import img12 from "../assets/Images/magzhan.jpg";
+import img13 from "../assets/Images/abay.jpg"; // zharkynbek
+import img14 from "../assets/Images/ais.jpg";
 
 const Section = styled(motion.section)`
   min-height: 100vh;
@@ -135,7 +139,7 @@ const Product = ({ img, title = "" }) => {
       transition={{ duration: 0.5 }}
       viewport={{ once: false, amount: "all" }}
     >
-      <img width="400" height="600" src={img} alt={title} />
+      <img width="400" height="600" style={{aspectRatio: "2/3", objectFit: "cover"}} src={img} alt={title} />
       <h1>{title}</h1>
     </Item>
   );
@@ -211,16 +215,16 @@ const Shop = () => {
         <Product img={img2} title="Abay" />
         <Product img={img3} title="Altair" />
         <Product img={img4} title="Nurbek" />
+        <Product img={img6} title="Ali" />
         <Product img={img5} title="Dulat" />
-        <Product img={img5} title="Ali" />
-        <Product img={img6} title="Sanzhar" />
-        <Product img={img7} title="Dias" />
-        <Product img={img8} title="Uldana" />
-        <Product img={img8} title="Kamilla" />
-        <Product img={img9} title="Rasul" />
-        <Product img={img10} title="Magzhan" />
-        <Product img={img10} title="Zharkynbek" />
-        <Product img={img10} title="Aisultan" />
+        <Product img={img7} title="Sanzhar" />
+        <Product img={img8} title="Dias" />
+        <Product img={img9} title="Uldana" />
+        <Product img={img10} title="Kamilla" />
+        <Product img={img11} title="Rasul" />
+        <Product img={img12} title="Magzhan" />
+        <Product img={img13} title="Zharkynbek" />
+        <Product img={img14} title="Aisultan" />
       </Right>
     </Section>
   );
