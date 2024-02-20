@@ -149,10 +149,7 @@ const About = () => {
         Robotics is an ART that everyone can grasp.
         <br />
         <br />
-        We are very dedicated to making our products. We offer unique and
-        creative products to a wide range of people. We have a variety of
-        styles, but for most people, all of the options are in the box. We
-        specialize in making things that make you happy.
+        Our team consists of members of former "CLUTCH" WRO team that won the chanpionship in 2023! We are a tightly-knit community that values teamwork, mutual support, and a shared passion for robotics.
       </Left>
 
       <Right>

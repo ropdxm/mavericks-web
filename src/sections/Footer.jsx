@@ -3,7 +3,7 @@ import React from "react";
 import { useLocomotiveScroll } from "react-locomotive-scroll";
 import styled from "styled-components";
 
-import Logo from "../assets/Images/logo.jpg";
+import Logo from "../assets/Images/logo.png";
 
 const Section = styled.section`
   min-height: 100vh;
@@ -130,7 +130,7 @@ const Footer = () => {
           width="300"
           height="300"
           src={Logo}
-          alt="Wibe"
+          alt="Logo"
           data-scroll
           data-scroll-speed="2"
         />

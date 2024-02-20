@@ -2,13 +2,13 @@ import { motion } from "framer-motion";
 import React from "react";
 import styled from "styled-components";
 
-import MainVideo from "../assets/Walking Girl.mp4";
+import MainVideo from "../assets/Images/bg.jpeg";
 
 const VideoContainer = styled.section`
   width: 100%;
   height: 100vh;
   position: relative;
-  video {
+  img {
     width: 100%;
     height: 100vh;
     object-fit: cover;
@@ -29,7 +29,7 @@ const DarkOverlay = styled.div`
   right: 0;
   bottom: 0;
   z-index: 1;
-  background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.6)`};
+  background-color: ${(props) => `rgba(${props.theme.bodyRgba},0.8)`};
 `;
 
 const Title = styled(motion.div)`
@@ -59,7 +59,7 @@ const Title = styled(motion.div)`
 
     @media (max-width: 30em) {
       /* font-size: ${(props) => props.theme.fontxxxl}; */
-      font-size: calc(5rem + 8vw);
+      font-size: calc(5rem);
     }
   }
   h2 {
@@ -186,7 +186,7 @@ const CoverVideo = () => {
         </motion.h2>
       </Title>
 
-      <video src={MainVideo} type="video/mp4" autoPlay muted loop />
+      <img src={MainVideo} alt="Background" />
     </VideoContainer>
   );
 };

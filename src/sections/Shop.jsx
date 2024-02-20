@@ -16,8 +16,8 @@ import img9 from "../assets/Images/uldana.JPG";
 import img10 from "../assets/Images/kamila.jpg"; //kamilla
 import img11 from "../assets/Images/rasul.JPG";
 import img12 from "../assets/Images/magzhan.jpg";
-import img13 from "../assets/Images/abay.jpg"; // zharkynbek
-import img14 from "../assets/Images/ais.jpg";
+import img13 from "../assets/Images/zharqyn.JPG"; // zharkynbek
+import img15 from "../assets/Images/togzhan.jpg";
 
 const Section = styled(motion.section)`
   min-height: 100vh;
@@ -205,7 +205,7 @@ const Shop = () => {
       </Title>
       <Left>
         <p>
-        "Mavericks Robotics Team" is a dynamic and forward-thinking group, comprised of passionate individuals. Renowned for their unwavering commitment to excellence, the Mavericks embody a spirit of hard work, creativity, and talent that sets them apart in the world of robotics.
+        "Mavericks" Robotics Team is a dynamic and forward-thinking group, comprised of passionate individuals. Renowned for their unwavering commitment to excellence, the Mavericks embody a spirit of hard work, creativity, and talent that sets them apart in the world of robotics.
           <br /> <br />
           With a commitment to excellence, a culture of continuous improvement, and a diverse range of skills, the Mavericks are a force to be reckoned with in the world of robotics innovation. Here, have a look at our brilliant team!
         </p>
@@ -223,8 +223,8 @@ const Shop = () => {
         <Product img={img10} title="Kamilla" />
         <Product img={img11} title="Rasul" />
         <Product img={img12} title="Magzhan" />
+        <Product img={img15} title="Togzhan" />
         <Product img={img13} title="Zharkynbek" />
-        <Product img={img14} title="Aisultan" />
       </Right>
     </Section>
   );

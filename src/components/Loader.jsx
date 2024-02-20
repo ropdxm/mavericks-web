@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import React from 'react';
 import styled from 'styled-components';
-import star from '../assets/Images/logo.jpg';
+import star from '../assets/Images/logowhite.png';
 
 const Container = styled(motion.div)`
   position: absolute;
@@ -9,8 +9,8 @@ const Container = styled(motion.div)`
   left: 0;
   right: 0;
   bottom: 0;
-touch-action: none;
-overflow: hidden;
+  touch-action: none;
+  overflow: hidden;
   width: 100vw;
   height: 100vh;
 
@@ -46,26 +46,25 @@ overflow: hidden;
   }
   img {
     height: 10rem;
-    aspect-ratio: 1;
   }
 `;
 
-const pathVariants = {
-  hidden: {
-    opacity: 0,
-    pathLength: 0,
-  },
-  visible: {
-    opacity: 1,
-    pathLength: 1,
+// const pathVariants = {
+//   hidden: {
+//     opacity: 0,
+//     pathLength: 0,
+//   },
+//   visible: {
+//     opacity: 1,
+//     pathLength: 1,
 
-    transition: {
-      duration: 2,
-      // yoyo: Infinity,
-      ease: 'easeInOut',
-    },
-  },
-};
+//     transition: {
+//       duration: 2,
+//       // yoyo: Infinity,
+//       ease: 'easeInOut',
+//     },
+//   },
+// };
 const textVariants = {
   hidden: {
     opacity: 0,
@@ -86,6 +85,7 @@ const Text = styled(motion.span)`
   font-size: ${(props) => props.theme.fontxl};
   color: ${(props) => props.theme.text};
   padding-top: 0.5rem;
+  margin-left: .5rem;
 
   @media (max-width: 48em) {
     font-size: ${(props) => props.theme.fontlg};
@@ -100,7 +100,7 @@ const Loader = () => {
       exit={{ y: '100%', opacity: 0 }}
       transition={{ duration: 2 }}
     >
-      <img src={star} alt="Wibe Fashion" />
+      <img src={star} alt="Mavericks" />
       {/* <svg
         xmlns="http://www.w3.org/2000/svg"
         enableBackground="new 0 0 24 24"

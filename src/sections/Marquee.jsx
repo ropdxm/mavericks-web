@@ -117,7 +117,7 @@ const Marquee = () => {
             data-scroll-speed="6"
             data-scroll-target="#direction"
           >
-            5 teams participated
+            4 teams participated
           </span>
         </Banner>
       </Container>

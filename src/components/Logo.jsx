@@ -2,7 +2,7 @@ import { motion } from 'framer-motion';
 import React from 'react';
 import { Link } from 'react-router-dom';
 import styled from 'styled-components';
-import star from '../assets/Images/logo.jpg'
+import star from '../assets/Images/logo.png'
 
 const Container = styled.div`
   position: absolute;
@@ -35,23 +35,21 @@ const Container = styled.div`
   img {
     width: 4rem;
     height: auto;
-    aspect-ratio: 1;
   }
 `;
 const Text = styled(motion.span)`
   font-size: ${(props) => props.theme.fontlg};
   color: ${(props) => props.theme.text};
   padding-bottom: 0.5rem;
+  margin-left: .6rem;
 `;
 
 const pathVariants = {
   hidden: {
     opacity: 0,
-    pathLength: 0,
   },
   visible: {
     opacity: 1,
-    pathLength: 1,
 
     transition: {
       duration: 2,
@@ -81,7 +79,7 @@ const Logo = () => {
   return (
     <Container>
       <Link to="/">
-        <img src={star} alt="Wibe Fashion" />
+        <motion.img src={star} alt="Mavericks" variants={pathVariants} />
         {/* <svg
           xmlns="http://www.w3.org/2000/svg"
           enableBackground="new 0 0 24 24"
@@ -100,9 +98,9 @@ const Logo = () => {
           </g>
         </svg> */}
 
-        <Text variants={textVariants} initial="hidden" animate="visible">
+        {/* <Text variants={textVariants} initial="hidden" animate="visible">
           Mavericks
-        </Text>
+        </Text> */}
       </Link>
     </Container>
   );
