@@ -5,7 +5,7 @@
 This repository contains final code for Mavericks Team Website in ReactJS. <br />
 
 View Demo👇: <br />
-Poka Netu((( <br />
+https://mavericks-ftc.netlify.app/ <br />
 
 ### Resources Used in This Project
 
